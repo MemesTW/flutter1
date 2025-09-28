@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'; //google Android design
-//apple IOS design
+import 'package:flutter/cupertino.dart'; //apple IOS design
 
 
 void main() {
@@ -12,10 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('My First App'),
-        ),
-        body: const Center(
+        body: Center(
           child: Text('Hello World'),
         ),
       ),
