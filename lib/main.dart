@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart'; //google Android design
-import 'package:flutter/cupertino.dart'; //apple IOS design
+import 'package:flutter/cupertino.dart';
+import './Currency_converter_page.dart'; //apple IOS design
 
 
 void main() {
@@ -8,15 +9,12 @@ void main() {
 //翱翔驗
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World'),
-        ),
-      ),
-    );
+      home: CurrencyConverterMaterialPage(),
+      );
   }
 }
 
